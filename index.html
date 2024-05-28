@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CHEESE</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Model Viewer</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@600&family=Hanken+Grotesk:wght@900&family=Space+Grotesk:wght@700&display=swap"
+    rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="btext">
+Steine faszinieren durch ihre zeitlose Beständigkeit und vielfältigen Strukturen. Ihre einzigartige Textur und Farbe erzählen Geschichten über die Erdgeschichte. Im Gegensatz zu den vergänglichen Blumen überdauern Steine Jahrhunderte, bieten beständige Schönheit und symbolisieren Stärke sowie Ruhe. Ihre natürliche Eleganz ist unvergleichlich und ewig bewundernswert.
+</div>
+
+
+  <model-viewer
+    src=".\poster.glb"
+    ios-src=".\poster.usdz"
+    ar
+    ar-modes="scene-viewer quick-look"
+    camera-controls
+    alt="A 3D model"
+    shadow-intensity="1"
+    auto-rotate>
+  </model-viewer>
+
+    <div class="blur-text">CHEESE</a>
+</body>
+</html>
