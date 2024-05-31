@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CHEESE</title>
+    <title>TOYS</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR Model Viewer</title>
+    <title>CYBER BALLET ONLINE</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,22 +15,23 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
-
-
-
 <body>
 
-
-<div class="fixed-h">
-  <a href="./poster-1">GARDEN</a>
-  <a href="./poster-2">TOYS</a>
-  <a href="./poster-3">HUGS</a>
-
-</div>
-
 <div class="btext">
+
 </div>
 
+
+  <model-viewer
+    src=".\poster-2.glb"
+    ios-src=".\poster-2.glb"
+    ar
+    ar-modes="scene-viewer quick-look"
+    camera-controls
+    alt="A 3D model"
+    shadow-intensity="1"
+    auto-rotate>
+  </model-viewer>
 
 </body>
 </html>
