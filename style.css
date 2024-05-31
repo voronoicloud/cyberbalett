@@ -86,6 +86,7 @@ a {
 a:hover {
     color: #1f1f1f; /* Ändert die Textfarbe beim Hover */
     text-decoration: none;
+    filter: blur(5px);
 }
 
 /* Stil für aktive Links */
@@ -127,12 +128,26 @@ a:visited {
             }
           }
 
-          .fixed-header {
+.fixed-header {
                      position: fixed;
                      top: 0;
                      left: 0;
                      width: 100%;
                      background-color: black;
+                   }
+
+.fixed-h {
+                                          position: fixed;
+                                          top: 0;
+                                          left: 0;
+                                          width: 100%;
+
+
+
+
+
+
+
 font-size:3vh;
                      color: #dcff5f;
                      text-align: center;
